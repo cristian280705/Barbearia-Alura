@@ -1,0 +1,165 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabeçalho {
+
+    background-color: #bbbbbb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+}
+
+.cabeçalho__lista {
+
+    display: flex;
+    gap: 16px;
+}
+
+.cabeçalho__item {
+
+    padding: 0 8px;
+}
+
+.cabeçalho__item:hover .cabeçalho__link {
+
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.cabeçalho__link {
+
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.principal {
+
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal__info {
+
+    padding: 32px 0;
+}
+
+.info__label-padrao {
+
+    display: block;
+    font-size: 1.2em;
+    padding: 12px 0 4px 0;
+}
+
+.info__input-padrao {
+
+    width: 50%;
+    padding:10px;
+
+    border: 1px solid black;
+}
+
+.info__input-mensagem {
+
+
+    resize: none;
+
+    width: 52%;
+
+    border: 1px solid black;
+
+}
+
+.principal__titulo {
+
+    font-size: 1.2em;
+    padding-bottom: 16px;
+}
+
+.contato__label-padrao {
+
+    display: block;
+    padding: 4px 0;
+}
+
+.contato__input-radio {
+
+    margin: 0 8px;
+}
+
+.contato__label-horario {
+
+    display: block;
+    padding: 12px 0;
+    font-size: 1.2em;
+}
+
+.contato__horario {
+
+    border: 1px solid black;
+}
+
+.novidades {
+
+    margin: 16px 0;
+}
+
+.enviar {
+
+    width: 25%;
+    padding: 12px 0;
+    margin-bottom: 16px;
+
+    font-size: 1.1em;
+    font-weight: bold;
+
+    color: white;
+    background-color: orange;
+
+    border: none;
+    border-radius: 8px;
+}
+
+.enviar:hover {
+
+    transform: scale(1.1);
+    transition: all 0.8s;
+    background-color: darkorange;
+}
+
+.principal__tabela {
+
+    margin: 16px 0 32px 0;
+}
+
+.principal__tabela thead {
+
+    background-color: #888888;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.principal__tabela td, th {
+
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.rodape {
+
+    background-image: url(./imagens/bg.jpg);
+    text-align: center;
+    padding: 32px 0;
+}
+
+.rodape__copyright {
+
+    color: white;
+}

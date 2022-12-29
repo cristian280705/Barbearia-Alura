@@ -1,0 +1,157 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabeçalho {
+
+    background-color: #bbbbbb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+}
+
+.cabeçalho__lista {
+
+    display: flex;
+    gap: 16px;
+}
+
+.cabeçalho__item {
+
+    padding: 0 8px;
+}
+
+.cabeçalho__item:hover .cabeçalho__link {
+
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.cabeçalho__link {
+
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.img-barbearia {
+
+    width: 100%;
+}
+
+.principal {
+
+    background-color: #fefefe;
+    clear: left;
+}
+
+.principal__descriçao-barbearia {
+
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.principal__titulo {
+
+    font-size: 2em;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.descriçao-barbearia__img {
+
+    float: left;
+    width: 125px;
+    padding: 0 16px;
+}
+
+.descriçao-barbearia__info {
+
+    padding: 10px;
+}
+
+.descriçao-barbearia__info strong {
+
+    font-weight: bold;
+}
+
+.descriçao-barbearia__info em {
+
+    font-style: italic;
+}
+
+.principal__localizaçao {
+
+    text-align: center;
+    padding: 2em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa {
+
+    margin: 2em 0;
+}
+
+.principal__beneficios {
+
+    background-color: #888888;
+    padding: 2em 0;
+}
+
+.beneficios__conteudo {
+
+    width: 640px;
+    margin: 0 auto;
+}
+
+.beneficios__conteudo--lista {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+.beneficios__conteudo--item {
+
+    line-height: 1.5em;
+}
+
+.beneficios__conteudo--item::before {
+
+    content: "★";
+}
+
+.beneficios__conteudo--img {
+
+    width: 59.3%;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0);
+}
+
+.beneficios__conteudo--img:hover {
+
+    opacity: 0.7;
+}
+
+.video {
+
+    text-align: center;
+    margin: 2em 0;
+    padding-top: 2em;
+}
+
+.rodape {
+
+    background-image: url(./imagens/bg.jpg);
+    text-align: center;
+    padding: 32px 0;
+}
+
+.rodape__copyright {
+
+    color: white;
+}

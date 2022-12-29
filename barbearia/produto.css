@@ -1,0 +1,120 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabeçalho {
+
+    background-color: #bbbbbb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+}
+
+.cabeçalho__lista {
+
+    display: flex;
+    gap: 16px;
+}
+
+.cabeçalho__item {
+
+    padding: 0 8px;
+}
+
+.cabeçalho__item:hover .cabeçalho__link {
+
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.cabeçalho__link {
+
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.secao--cartoes {
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 64px 0;
+}
+
+.cartao__lista {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao__item {
+
+    width: 30%;
+    height: 500px;
+
+    box-sizing: border-box;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    text-align: center;
+
+    border: 2px solid black;
+    border-radius: 18px;
+}
+
+.cartaa__item:hover {
+
+    border-color: #C78C19;
+}
+
+
+.cartaa__item:active {
+
+    border-color: green;
+}
+
+
+.cartao__produto {
+
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1.5em 0;
+}
+
+.cartao__img {
+
+    width: 200px;
+}
+
+.cartao__descriçao {
+
+    padding: 1.5em 0;
+}
+
+.cartao__preco {
+
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 1em 0;
+}
+
+.rodape {
+
+    background-image: url(./imagens/bg.jpg);
+    text-align: center;
+    padding: 32px 0;
+}
+
+.rodape__copyright {
+
+    color: white;
+}

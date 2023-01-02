@@ -71,13 +71,13 @@ body {
     border-radius: 18px;
 }
 
-.cartaa__item:hover {
+.cartao__item:hover {
 
     border-color: #C78C19;
 }
 
 
-.cartaa__item:active {
+.cartao__item:active {
 
     border-color: green;
 }
